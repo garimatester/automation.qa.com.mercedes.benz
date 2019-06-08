@@ -1,0 +1,69 @@
+{
+"browser":"chrome",
+"macChromeBinaryPath":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+"linuxChromeBinaryPath":"/bin/google-chrome",
+"windowsChromeBinaryPath":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+"environment":"QA",
+
+
+"listUrl" : [{
+      "environment":"QA",
+      "baseUrl":"https://shop.mercedes-benz.com/en-gb/collection/"
+       }, 
+		{ "environment":"LIV",
+      "baseurl":""    
+       }],
+
+  
+  
+  "listParam" : [{
+      "key":"firstName",
+      "value":"gari"
+       },
+       
+       {
+      "key":"lastName",
+      "value":"chauhan"
+       },
+       
+       {
+      "key":"number",
+      "value":"53"
+       },
+       {
+      "key":"street",
+      "value":"bakers"
+       },
+       
+       {
+      "key":"firstName",
+      "value":"testuser"
+       },
+       
+       {
+      "key":"town",
+      "value":"Berlin"
+       },
+       
+       {
+      "key":"postalCode",
+      "value":"SP2 0FL"
+       },
+       
+        {
+      "key":"email",
+      "value":"test@example.com"
+       }
+       
+     
+       
+       
+       ]
+
+  
+
+
+
+
+}
+	
