@@ -21,7 +21,7 @@ or chromne.exe in windows check paths in configurableData.json
 "LinuxChromeBinaryPath":"/bin/google-chrome",
 "WindowsChromeBinaryPath":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
 
-##Steps to run
+#### Steps to run
 
 run with mvn commands
 
@@ -50,7 +50,7 @@ BaseSeleniumSetup: purpose is to Initialize driver, navigation to pages, close d
 ​
 BaseSeleniumWebPageAction: It has all selenium webpage action which is useful in pages class to interact with selenium elements.
 
-####com.mercedes.benz.selenium.driverbase 
+#### com.mercedes.benz.selenium.driverbase 
 
 contains all driver manager code and called in BaseSeleniumSetup.java setup().
 
@@ -76,12 +76,12 @@ common.java has readTestData  that could be used beyond selenium tests also
 
 BaseSeleniumSetup.java->DriverManagerFactory->common
 
-####appModules: 
+#### appModules: 
 
 It has reusable actions(need to add more for modular design)
 
 
-####listners: 
+#### listners: 
 
 A custom listener is created to execute takescreenshot on failed test cases.
 
